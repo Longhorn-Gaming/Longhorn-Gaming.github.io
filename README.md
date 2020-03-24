@@ -1,2 +1,2 @@
-# Longhorn-Gaming.github.io
+# LonghornGaming.github.io
 The main website for the Longhorn Gaming organization at the University of Texas at Austin
