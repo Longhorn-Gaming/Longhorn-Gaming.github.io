@@ -21,7 +21,9 @@
 .button.fullwidth {
   width: 100%;
   background-color: #ce6d3c;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
   font-size: 16px;
   text-align: center;
 }
@@ -145,7 +147,13 @@
 .footer {
   margin-top: 120px;
   padding: 100px 25px 115px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#0a1a2e), to(#0e243f));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#0a1a2e),
+    to(#0e243f)
+  );
   background-image: linear-gradient(180deg, #0a1a2e, #0e243f);
 }
 
@@ -153,7 +161,13 @@
   margin-top: 0px;
   padding-top: 1px;
   padding-bottom: 70px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(39, 41, 42, 0.9)), to(#27292a));
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(rgba(39, 41, 42, 0.9)),
+    to(#27292a)
+  );
   background-image: linear-gradient(180deg, rgba(39, 41, 42, 0.9), #27292a);
 }
 
@@ -456,7 +470,7 @@
   flex: 0 33.333%;
   border-radius: 6px;
   background-color: #f0f3f6;
-  background-image: url('../images/image-testimonial2x.jpg');
+  background-image: url("../images/image-testimonial2x.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -464,8 +478,20 @@
 
 .advantages {
   padding: 140px 25px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(#ce6d3c), color-stop(0%, rgba(206, 109, 60, 0.3)), color-stop(75%, rgba(226, 229, 234, 0)));
-  background-image: linear-gradient(180deg, #ce6d3c, rgba(206, 109, 60, 0.3) 0%, rgba(226, 229, 234, 0) 75%);
+  background-image: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#ce6d3c),
+    color-stop(0%, rgba(206, 109, 60, 0.3)),
+    color-stop(75%, rgba(226, 229, 234, 0))
+  );
+  background-image: linear-gradient(
+    180deg,
+    #ce6d3c,
+    rgba(206, 109, 60, 0.3) 0%,
+    rgba(226, 229, 234, 0) 75%
+  );
 }
 
 .faq-horizontal {
@@ -615,7 +641,7 @@
   position: relative;
   padding-right: 25px;
   padding-left: 25px;
-  background-image: url('../images/maincampus_hero-1.jpg');
+  background-image: url("../images/maincampus_hero-1.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: repeat;
@@ -623,8 +649,20 @@
 }
 
 .header.fleet {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 36, 56, 0.5)), to(rgba(22, 36, 56, 0.5))), url('../images/AVGL_DHDAL19_AustinWright_1FULL-17.jpg');
-  background-image: linear-gradient(180deg, rgba(22, 36, 56, 0.5), rgba(22, 36, 56, 0.5)), url('../images/AVGL_DHDAL19_AustinWright_1FULL-17.jpg');
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(22, 36, 56, 0.5)),
+      to(rgba(22, 36, 56, 0.5))
+    ),
+    url("../images/AVGL_DHDAL19_AustinWright_1FULL-17.jpg");
+  background-image: linear-gradient(
+      180deg,
+      rgba(22, 36, 56, 0.5),
+      rgba(22, 36, 56, 0.5)
+    ),
+    url("../images/AVGL_DHDAL19_AustinWright_1FULL-17.jpg");
   background-position: 0px 0px, 50% 80%;
   background-size: auto, cover;
   background-repeat: repeat, repeat;
@@ -634,8 +672,20 @@
 .header.pages {
   padding-top: 0px;
   padding-bottom: 0px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 36, 56, 0.5)), to(rgba(22, 36, 56, 0.5))), url('../images/Copy-of-DSC_0408-3.jpg');
-  background-image: linear-gradient(180deg, rgba(22, 36, 56, 0.5), rgba(22, 36, 56, 0.5)), url('../images/Copy-of-DSC_0408-3.jpg');
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(22, 36, 56, 0.5)),
+      to(rgba(22, 36, 56, 0.5))
+    ),
+    url("../images/Copy-of-DSC_0408-3.jpg");
+  background-image: linear-gradient(
+      180deg,
+      rgba(22, 36, 56, 0.5),
+      rgba(22, 36, 56, 0.5)
+    ),
+    url("../images/Copy-of-DSC_0408-3.jpg");
   background-position: 0px 0px, 50% 155%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -644,8 +694,20 @@
 
 .header.blog {
   position: relative;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 36, 56, 0.5)), to(rgba(22, 36, 56, 0.5))), url('../images/IMG_20191026_192455.jpg');
-  background-image: linear-gradient(180deg, rgba(22, 36, 56, 0.5), rgba(22, 36, 56, 0.5)), url('../images/IMG_20191026_192455.jpg');
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(22, 36, 56, 0.5)),
+      to(rgba(22, 36, 56, 0.5))
+    ),
+    url("../images/IMG_20191026_192455.jpg");
+  background-image: linear-gradient(
+      180deg,
+      rgba(22, 36, 56, 0.5),
+      rgba(22, 36, 56, 0.5)
+    ),
+    url("../images/IMG_20191026_192455.jpg");
   background-position: 0px 0px, 50% 110%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
@@ -891,7 +953,7 @@
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   border-radius: 6px;
-  background-image: url('../images/advantages-image2x.jpg');
+  background-image: url("../images/advantages-image2x.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -936,7 +998,7 @@
 
 .h3-heading-light.light.opacity {
   opacity: 0.85;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   color: #fff;
 }
 
@@ -948,8 +1010,20 @@
 
 .three-blog-posts.gradient {
   padding-top: 60px;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.2)), color-stop(50%, hsla(0, 0%, 100%, 0)), to(#fff));
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), hsla(0, 0%, 100%, 0) 50%, #fff);
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(rgba(0, 0, 0, 0.2)),
+    color-stop(50%, hsla(0, 0%, 100%, 0)),
+    to(#fff)
+  );
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.2),
+    hsla(0, 0%, 100%, 0) 50%,
+    #fff
+  );
 }
 
 .service-empty-state {
@@ -1123,7 +1197,9 @@
 
 .nav-link {
   padding: 26px 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
   color: #fff;
   font-size: 20px;
   font-weight: 400;
@@ -1207,7 +1283,9 @@
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
   color: #162438;
   font-size: 20px;
 }
@@ -1330,7 +1408,7 @@
 }
 
 .current-page {
-  font-family: 'Varela Round', sans-serif;
+  font-family: "Varela Round", sans-serif;
   color: #fff;
   font-size: 15px;
   line-height: 22px;
@@ -1352,7 +1430,7 @@
   -ms-flex: 0 60%;
   flex: 0 60%;
   border-radius: 6px;
-  background-image: url('../images/IMG_6571.jpg');
+  background-image: url("../images/IMG_6571.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1460,7 +1538,7 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-image: url('../images/icon-checkmark.svg');
+  background-image: url("../images/icon-checkmark.svg");
   background-position: 0% 50%;
   background-size: auto;
   background-repeat: no-repeat;
@@ -1470,7 +1548,7 @@
   min-height: 350px;
   margin-top: 75px;
   border-radius: 6px;
-  background-image: url('../images/20191110_095115.jpg');
+  background-image: url("../images/20191110_095115.jpg");
   background-position: 50% 50%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -1528,7 +1606,7 @@
   width: 100%;
   min-height: 185px;
   border-radius: 6px;
-  background-image: url('../images/IMG_20190625_161401.jpg');
+  background-image: url("../images/IMG_20190625_161401.jpg");
   background-position: 50% 50%;
   background-size: cover;
 }
@@ -1537,14 +1615,14 @@
   display: inline-block;
   border: 1px none #000;
   border-radius: 6px;
-  background-image: url('../images/IMG_20191026_192455.jpg');
+  background-image: url("../images/IMG_20191026_192455.jpg");
   background-position: 0% 50%;
   background-size: cover;
   background-attachment: scroll;
 }
 
 .link-block.compete {
-  background-image: url('../images/P1028340.jpg');
+  background-image: url("../images/P1028340.jpg");
   background-position: 100% 50%;
   background-size: cover;
   background-repeat: repeat-x;
@@ -1623,8 +1701,18 @@
   height: 500px;
   padding-top: 30px;
   padding-bottom: 30px;
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(206, 109, 60, 0.4)), to(#fff)), -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url('../images/Group-Edited.jpg');
-  background-image: linear-gradient(180deg, rgba(206, 109, 60, 0.4), #fff), linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('../images/Group-Edited.jpg');
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(206, 109, 60, 0.4)),
+      to(#fff)
+    ),
+    -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))),
+    url("../images/Group-Edited.jpg");
+  background-image: linear-gradient(180deg, rgba(206, 109, 60, 0.4), #fff),
+    linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url("../images/Group-Edited.jpg");
   background-position: 0px 0px, 0px 0px, 50% 50%;
   background-size: auto, auto, cover;
   background-attachment: scroll, scroll, fixed;
@@ -1675,8 +1763,18 @@
   -ms-flex-pack: end;
   justify-content: flex-end;
   border-radius: 4px;
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.79)), to(rgba(0, 0, 0, 0.1)));
-  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.79), rgba(0, 0, 0, 0.1));
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    from(rgba(0, 0, 0, 0.79)),
+    to(rgba(0, 0, 0, 0.1))
+  );
+  background-image: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.79),
+    rgba(0, 0, 0, 0.1)
+  );
 }
 
 .about-events {
@@ -1698,7 +1796,7 @@
 
 .slide {
   padding-top: 0px;
-  background-image: url('../images/IMG_6571.jpg');
+  background-image: url("../images/IMG_6571.jpg");
   background-position: 50% 20%;
   background-size: cover;
 }
@@ -1708,13 +1806,13 @@
 }
 
 .slide-2 {
-  background-image: url('../images/P1038588.jpg');
+  background-image: url("../images/P1038588.jpg");
   background-position: 50% 28%;
   background-size: cover;
 }
 
 .slide-3 {
-  background-image: url('../images/P1028340.jpg');
+  background-image: url("../images/P1028340.jpg");
   background-position: 50% 75%;
   background-size: cover;
 }
@@ -2410,4 +2508,3 @@
     padding: 50px 5px 15px;
   }
 }
-
