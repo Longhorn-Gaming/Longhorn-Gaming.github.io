@@ -19,15 +19,6 @@
 }
 
 .button.fullwidth {
-<<<<<<< HEAD
-  width: 100%;
-  background-color: #ce6d3c;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  font-size: 16px;
-  text-align: center;
-=======
     width: 100%;
     background-color: #ce6d3c;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
@@ -35,7 +26,6 @@
         "Helvetica Neue", sans-serif;
     font-size: 16px;
     text-align: center;
->>>>>>> working
 }
 
 .button.fullwidth._15t-margin {
@@ -155,32 +145,6 @@
 }
 
 .footer {
-<<<<<<< HEAD
-  margin-top: 120px;
-  padding: 100px 25px 115px;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#0a1a2e),
-    to(#0e243f)
-  );
-  background-image: linear-gradient(180deg, #0a1a2e, #0e243f);
-}
-
-.footer.subscription {
-  margin-top: 0px;
-  padding-top: 1px;
-  padding-bottom: 70px;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(rgba(39, 41, 42, 0.9)),
-    to(#27292a)
-  );
-  background-image: linear-gradient(180deg, rgba(39, 41, 42, 0.9), #27292a);
-=======
     margin-top: 120px;
     padding: 100px 25px 115px;
     background-image: -webkit-gradient(
@@ -205,7 +169,6 @@
         to(#27292a)
     );
     background-image: linear-gradient(180deg, rgba(39, 41, 42, 0.9), #27292a);
->>>>>>> working
 }
 
 .footer-bottom-link {
@@ -497,40 +460,6 @@
 }
 
 .testimonials-image {
-<<<<<<< HEAD
-  position: relative;
-  height: 450px;
-  margin-right: 15px;
-  margin-left: 15px;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 33.333%;
-  -ms-flex: 0 33.333%;
-  flex: 0 33.333%;
-  border-radius: 6px;
-  background-color: #f0f3f6;
-  background-image: url("../images/image-testimonial2x.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
-.advantages {
-  padding: 140px 25px;
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    from(#ce6d3c),
-    color-stop(0%, rgba(206, 109, 60, 0.3)),
-    color-stop(75%, rgba(226, 229, 234, 0))
-  );
-  background-image: linear-gradient(
-    180deg,
-    #ce6d3c,
-    rgba(206, 109, 60, 0.3) 0%,
-    rgba(226, 229, 234, 0) 75%
-  );
-=======
     position: relative;
     height: 450px;
     margin-right: 15px;
@@ -563,7 +492,6 @@
         rgba(206, 109, 60, 0.3) 0%,
         rgba(226, 229, 234, 0) 75%
     );
->>>>>>> working
 }
 
 .faq-horizontal {
@@ -710,82 +638,6 @@
 }
 
 .header {
-<<<<<<< HEAD
-  position: relative;
-  padding-right: 25px;
-  padding-left: 25px;
-  background-image: url("../images/maincampus_hero-1.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: repeat;
-  background-attachment: fixed;
-}
-
-.header.fleet {
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(22, 36, 56, 0.5)),
-      to(rgba(22, 36, 56, 0.5))
-    ),
-    url("../images/AVGL_DHDAL19_AustinWright_1FULL-17.jpg");
-  background-image: linear-gradient(
-      180deg,
-      rgba(22, 36, 56, 0.5),
-      rgba(22, 36, 56, 0.5)
-    ),
-    url("../images/AVGL_DHDAL19_AustinWright_1FULL-17.jpg");
-  background-position: 0px 0px, 50% 80%;
-  background-size: auto, cover;
-  background-repeat: repeat, repeat;
-  background-attachment: scroll, fixed;
-}
-
-.header.pages {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(22, 36, 56, 0.5)),
-      to(rgba(22, 36, 56, 0.5))
-    ),
-    url("../images/Copy-of-DSC_0408-3.jpg");
-  background-image: linear-gradient(
-      180deg,
-      rgba(22, 36, 56, 0.5),
-      rgba(22, 36, 56, 0.5)
-    ),
-    url("../images/Copy-of-DSC_0408-3.jpg");
-  background-position: 0px 0px, 50% 155%;
-  background-size: auto, cover;
-  background-repeat: repeat, no-repeat;
-  background-attachment: scroll, fixed;
-}
-
-.header.blog {
-  position: relative;
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(22, 36, 56, 0.5)),
-      to(rgba(22, 36, 56, 0.5))
-    ),
-    url("../images/IMG_20191026_192455.jpg");
-  background-image: linear-gradient(
-      180deg,
-      rgba(22, 36, 56, 0.5),
-      rgba(22, 36, 56, 0.5)
-    ),
-    url("../images/IMG_20191026_192455.jpg");
-  background-position: 0px 0px, 50% 110%;
-  background-size: auto, cover;
-  background-repeat: repeat, no-repeat;
-  background-attachment: scroll, fixed;
-=======
     position: relative;
     padding-right: 25px;
     padding-left: 25px;
@@ -860,7 +712,6 @@
     background-size: auto, cover;
     background-repeat: repeat, no-repeat;
     background-attachment: scroll, fixed;
->>>>>>> working
 }
 
 .interviewee-company {
@@ -1096,18 +947,6 @@
 }
 
 .advantages-image {
-<<<<<<< HEAD
-  width: 300%;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 auto;
-  -ms-flex: 0 0 auto;
-  flex: 0 0 auto;
-  border-radius: 6px;
-  background-image: url("../images/advantages-image2x.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-=======
     width: 300%;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 auto;
@@ -1118,7 +957,6 @@
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
->>>>>>> working
 }
 
 .h2-heading._65-percent {
@@ -1159,15 +997,9 @@
 }
 
 .h3-heading-light.light.opacity {
-<<<<<<< HEAD
-  opacity: 0.85;
-  font-family: "Open Sans", sans-serif;
-  color: #fff;
-=======
     opacity: 0.85;
     font-family: "Open Sans", sans-serif;
     color: #fff;
->>>>>>> working
 }
 
 .three-blog-posts {
@@ -1177,23 +1009,6 @@
 }
 
 .three-blog-posts.gradient {
-<<<<<<< HEAD
-  padding-top: 60px;
-  background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    from(rgba(0, 0, 0, 0.2)),
-    color-stop(50%, hsla(0, 0%, 100%, 0)),
-    to(#fff)
-  );
-  background-image: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0.2),
-    hsla(0, 0%, 100%, 0) 50%,
-    #fff
-  );
-=======
     padding-top: 60px;
     background-image: -webkit-gradient(
         linear,
@@ -1209,7 +1024,6 @@
         hsla(0, 0%, 100%, 0) 50%,
         #fff
     );
->>>>>>> working
 }
 
 .service-empty-state {
@@ -1382,16 +1196,6 @@
 }
 
 .nav-link {
-<<<<<<< HEAD
-  padding: 26px 20px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  color: #fff;
-  font-size: 20px;
-  font-weight: 400;
-  text-decoration: none;
-=======
     padding: 26px 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
         Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans",
@@ -1400,7 +1204,6 @@
     font-size: 20px;
     font-weight: 400;
     text-decoration: none;
->>>>>>> working
 }
 
 .nav-link:hover {
@@ -1464,29 +1267,6 @@
 }
 
 .navigation {
-<<<<<<< HEAD
-  position: fixed;
-  left: 0%;
-  top: 0%;
-  right: 0%;
-  bottom: auto;
-  z-index: 9999;
-  padding-right: 25px;
-  padding-left: 25px;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-  -ms-flex-align: stretch;
-  align-items: stretch;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  color: #162438;
-  font-size: 20px;
-=======
     position: fixed;
     left: 0%;
     top: 0%;
@@ -1508,7 +1288,6 @@
         "Helvetica Neue", sans-serif;
     color: #162438;
     font-size: 20px;
->>>>>>> working
 }
 
 .logo-image {
@@ -1629,21 +1408,12 @@
 }
 
 .current-page {
-<<<<<<< HEAD
-  font-family: "Varela Round", sans-serif;
-  color: #fff;
-  font-size: 15px;
-  line-height: 22px;
-  font-weight: 500;
-  letter-spacing: 0.25px;
-=======
     font-family: "Varela Round", sans-serif;
     color: #fff;
     font-size: 15px;
     line-height: 22px;
     font-weight: 500;
     letter-spacing: 0.25px;
->>>>>>> working
 }
 
 .about-images {
@@ -1651,21 +1421,6 @@
 }
 
 .about-right-image {
-<<<<<<< HEAD
-  min-height: 450px;
-  margin-left: 40px;
-  padding-right: 15px;
-  padding-left: 15px;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 60%;
-  -ms-flex: 0 60%;
-  flex: 0 60%;
-  border-radius: 6px;
-  background-image: url("../images/IMG_6571.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-=======
     min-height: 450px;
     margin-left: 40px;
     padding-right: 15px;
@@ -1679,7 +1434,6 @@
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
->>>>>>> working
 }
 
 .team-4-wrapper {
@@ -1775,31 +1529,6 @@
 }
 
 .service-benefit-item {
-<<<<<<< HEAD
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 10px;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-image: url("../images/icon-checkmark.svg");
-  background-position: 0% 50%;
-  background-size: auto;
-  background-repeat: no-repeat;
-}
-
-.about-left-image {
-  min-height: 350px;
-  margin-top: 75px;
-  border-radius: 6px;
-  background-image: url("../images/20191110_095115.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-  background-repeat: no-repeat;
-=======
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -1823,7 +1552,6 @@
     background-position: 50% 50%;
     background-size: cover;
     background-repeat: no-repeat;
->>>>>>> working
 }
 
 .blog-box-list {
@@ -1875,31 +1603,6 @@
 }
 
 .link-block {
-<<<<<<< HEAD
-  width: 100%;
-  min-height: 185px;
-  border-radius: 6px;
-  background-image: url("../images/IMG_20190625_161401.jpg");
-  background-position: 50% 50%;
-  background-size: cover;
-}
-
-.link-block.community {
-  display: inline-block;
-  border: 1px none #000;
-  border-radius: 6px;
-  background-image: url("../images/IMG_20191026_192455.jpg");
-  background-position: 0% 50%;
-  background-size: cover;
-  background-attachment: scroll;
-}
-
-.link-block.compete {
-  background-image: url("../images/P1028340.jpg");
-  background-position: 100% 50%;
-  background-size: cover;
-  background-repeat: repeat-x;
-=======
     width: 100%;
     min-height: 185px;
     border-radius: 6px;
@@ -1923,7 +1626,6 @@
     background-position: 100% 50%;
     background-size: cover;
     background-repeat: repeat-x;
->>>>>>> working
 }
 
 .h4-heading-2 {
@@ -1996,26 +1698,6 @@
 }
 
 .pic {
-<<<<<<< HEAD
-  height: 500px;
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-image: -webkit-gradient(
-      linear,
-      left top,
-      left bottom,
-      from(rgba(206, 109, 60, 0.4)),
-      to(#fff)
-    ),
-    -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))),
-    url("../images/Group-Edited.jpg");
-  background-image: linear-gradient(180deg, rgba(206, 109, 60, 0.4), #fff),
-    linear-gradient(180deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url("../images/Group-Edited.jpg");
-  background-position: 0px 0px, 0px 0px, 50% 50%;
-  background-size: auto, auto, cover;
-  background-attachment: scroll, scroll, fixed;
-=======
     height: 500px;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -2034,7 +1716,6 @@
     background-position: 0px 0px, 0px 0px, 50% 50%;
     background-size: auto, auto, cover;
     background-attachment: scroll, scroll, fixed;
->>>>>>> working
 }
 
 .div-block-2 {
@@ -2064,38 +1745,6 @@
 }
 
 .div-block-3 {
-<<<<<<< HEAD
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  min-height: 300px;
-  padding-right: 30px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
-  border-radius: 4px;
-  background-image: -webkit-gradient(
-    linear,
-    left bottom,
-    left top,
-    from(rgba(0, 0, 0, 0.79)),
-    to(rgba(0, 0, 0, 0.1))
-  );
-  background-image: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 0.79),
-    rgba(0, 0, 0, 0.1)
-  );
-=======
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -2126,7 +1775,6 @@
         rgba(0, 0, 0, 0.79),
         rgba(0, 0, 0, 0.1)
     );
->>>>>>> working
 }
 
 .about-events {
@@ -2147,17 +1795,10 @@
 }
 
 .slide {
-<<<<<<< HEAD
-  padding-top: 0px;
-  background-image: url("../images/IMG_6571.jpg");
-  background-position: 50% 20%;
-  background-size: cover;
-=======
     padding-top: 0px;
     background-image: url("../images/IMG_6571.jpg");
     background-position: 50% 20%;
     background-size: cover;
->>>>>>> working
 }
 
 .heading-2 {
@@ -2165,17 +1806,6 @@
 }
 
 .slide-2 {
-<<<<<<< HEAD
-  background-image: url("../images/P1038588.jpg");
-  background-position: 50% 28%;
-  background-size: cover;
-}
-
-.slide-3 {
-  background-image: url("../images/P1028340.jpg");
-  background-position: 50% 75%;
-  background-size: cover;
-=======
     background-image: url("../images/P1038588.jpg");
     background-position: 50% 28%;
     background-size: cover;
@@ -2185,7 +1815,6 @@
     background-image: url("../images/P1028340.jpg");
     background-position: 50% 75%;
     background-size: cover;
->>>>>>> working
 }
 
 .paragraph-2 {
