@@ -60,6 +60,19 @@
   text-align: center;
 }
 
+.button.application {
+    float: left;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-right: 18px;
+    padding-left: 18px;
+    width: 180px;
+    background-color: #ce6d3c;
+    font-size: 16px;
+    text-decoration: none;
+    text-align: center;
+  }
+
 .button._35h-margin {
   padding-right: 35px;
   padding-left: 35px;
