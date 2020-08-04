@@ -1983,7 +1983,7 @@ background-attachment: scroll, fixed;
 .team-column {
   float: left;
   width: 50%;
-  margin-bottom: 16px;
+  margin-bottom: 0px;
 }
 
 .video {
