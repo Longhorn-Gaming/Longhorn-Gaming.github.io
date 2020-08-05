@@ -700,6 +700,27 @@ background-repeat: repeat, repeat;
 background-attachment: scroll, fixed;
 }
 
+.header.ultimate {
+    background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(22, 36, 56, 0.5)),
+      to(rgba(22, 36, 56, 0.5))
+    ),
+    url("../images/ultimate-2.jpg");
+  background-image: linear-gradient(
+      180deg,
+      rgba(22, 36, 56, 0.5),
+      rgba(22, 36, 56, 0.5)
+    ),
+    url("../images/ultimate-2.jpg");
+  background-position: 0px, 0px;
+  background-size: auto, cover;
+  background-repeat: repeat, repeat;
+  background-attachment: scroll, fixed;
+  }
+
 .header.fleet {
   background-image: -webkit-gradient(
       linear,
@@ -1950,7 +1971,9 @@ background-attachment: scroll, fixed;
 }
 
 .roster-title {
+  clear: both;
   color: grey;
+  padding-bottom: 8px;
 }
 
 .roster-button {
@@ -2016,7 +2039,7 @@ background-attachment: scroll, fixed;
   font-size: 30px;
   margin-top: 30px;
   margin-left: 15px;
-  margin-right: 15px;
+  margin-right: 5px;
 }
 
 .team-name {
@@ -2029,6 +2052,11 @@ background-attachment: scroll, fixed;
     margin-right: 10%;
     margin-left: 10%;
     text-align: center;
+}
+
+.icon-link {
+    text-decoration: none;
+    color: #27292a
 }
 
 /* Display the columns below each other instead of side by side on small screens */
